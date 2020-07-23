@@ -37,7 +37,7 @@ function short () {
 
         //condition for adding link
 
-        if(linkInput.value.startsWith("https://")){
+        if(linkInput.value.startsWith("https://") || linkInput.value.startsWith("http://")){
             //create element    
             var one = document.createElement('div');
                 span = document.createElement('span');
